@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-size:  50px;
+}
+body{
+    background-color: #caf0f8 ;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#023e8a;
+    font-weight: bolder;
+}
+#foto {
+    
+}
