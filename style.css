@@ -128,12 +128,6 @@ a:visited, a:hover, a:active {
   text-align: center;
 }
 
-/* .skills div {
-  display: flex;
-  width: 800px;
-  margin-bottom: 30px;
-} */
-
 .skills ul {
   width: 80%;
   list-style: none;
