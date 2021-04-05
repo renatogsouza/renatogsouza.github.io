@@ -5,6 +5,12 @@
 
   header {
     justify-content: center;
+    width: 100%;
+  }
+
+  header img {
+    width: 100px;
+    margin-right: 4%;
   }
 
   .hero h1{
@@ -12,5 +18,9 @@
   }
   .hero h3 {
     font-size: 20px;
+  }
+
+  .contato form {
+    width: 100%;
   }
 }
