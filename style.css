@@ -211,3 +211,12 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/* @media screen and (max-width: 375px) {
+  header {
+    justify-content: center;
+  }
+  header div nav {
+    display: none;
+  }
+} */

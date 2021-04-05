@@ -1,0 +1,16 @@
+@media screen and (max-width: 425px) {
+  header div {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .hero h1{
+    font-size: 25px;
+  }
+  .hero h3 {
+    font-size: 20px;
+  }
+}
