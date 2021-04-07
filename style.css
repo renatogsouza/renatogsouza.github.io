@@ -209,6 +209,11 @@ color: #191c03;
   border-radius: 4px;
   cursor: pointer;
   margin-bottom: 35px;
+  opacity: 0.8;
+}
+
+.contato button:hover {
+  opacity: 1;
 }
 
 footer {
@@ -218,8 +223,12 @@ footer {
   padding: 100px 50px;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 footer div {
-  margin-bottom: 15px;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 }
