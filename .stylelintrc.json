@@ -1,0 +1,7 @@
+{
+  "extends": "stylelint-config-standard",
+  "order/properties-alphabetical-order": [
+		true,
+		{ "disableFix": true }
+	]
+}

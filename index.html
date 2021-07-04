@@ -6,39 +6,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/slide.css">
+  <link rel="stylesheet" href="/style/staticSkills.css">
+  <link rel="stylesheet" href="/style/responsive.css">
+  <title>Renato GSouza</title>
+
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Renato G Souza">
-    <!-- <h1>Renato GSouza</h1> -->
-    <!-- <a class="btn fas fa-home" href="">Home</a> -->
-    <div>
-      <nav >
-        <a class="btn fas fa-location-arrow" href="#sobre">Sobre</a>
-        <a class="btn fas fa-phone-alt" href="#contato">Contato</a>
-      </nav>
-    </div>
   </header>
-  <div class="super">
-    <section class="hero">
-      <h1>O mundo sem ordem,<br> o caos reina.</h1>
-      <h3>Seja bem vindo!</h3>
+  <div class="tela-inteira">
+    <section class="static-home">
+      <div class="super">
+        <section class="hero">
+          <h1>O mundo sem ordem,<br> o caos reina.</h1>
+          <h3>Seja bem vindo!</h3>
+        </section>
+      </div>
+      <article id="sobre" class="sobre">
+        <h2>Sobre</h2>
+        <p>
+          Apaixonado por desafios, desenvolver aplicativos web me faz sentir completo, por estar
+          resolvendo problemas do mundo real e transformando o mundo em que vivemos. Gosto de me envolver
+          profundamente nos projetos em qual trabalho (senso de dono), sempre trabalhando em grupo
+          para chegarmos mais longe! Bom
+          aqui falei um pouco sobre mim, na sessão abaixo você verá minhas <a href="#skills">
+            Habilidades e Experiências</a> como programador.
+        </p>
+        <hr>
+      </article>
+      <article class="menu">
+        <nav>
+          <a class="btn fas fa-home" href="">Home</a>
+          <a class="btn fas fa-location-arrow" href="#sobre">Sobre</a>
+          <a class="btn fas fa-phone-alt" href="#contato">Contato</a>
+          <button type="button" id="hiden">hiden</button>
+        </nav>
+      </article>
+    </section>
+    <!-- image slider start -->
+    <section class="static-slide">
+     <div class="slider">
+       <div class="slides">
+        <!-- radio buttons start -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <!-- radio buttons end -->
+        <!-- slide images start -->
+        <div class="slide first">
+          <img src="images/euMesmo.jpeg">
+        </div>
+        <div class="slide">
+          <img src="images/euNovo.jpeg">
+        </div>
+        <div class="slide">
+          <img src="images/fradiqueCoutinho.jpg">
+        </div>
+        <!-- slide images end -->
+        <!-- automatic navigation start -->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+        </div>
+        <!-- automatic navigation end -->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+        </div>
+      </div>
+     </div>
+     <!-- image slider end -->
     </section>
   </div>
-  <section id="sobre" class="sobre">
-    <h2>Sobre</h2>
-    <p>
-      Apaixonado por desafios, desenvolver aplicativos web me faz sentir completo, por estar
-      resolvendo problemas do mundo real e transformando o mundo em que vivemos. Gosto de me envolver
-      profundamente nos projetos em qual trabalho (senso de dono), sempre trabalhando em grupo
-      para chegarmos mais longe! Bom
-      aqui falei um pouco sobre mim, na sessão abaixo você verá minhas <a href="#skills">
-        Habilidades e Experiências</a> como programador.
-    </p>
-    <hr>
-    </section>
+  <section class="static-skills">
     <section class="skills" id="skills">
       <h2>Habilidades e Experiências</h3>
     <ul>
@@ -75,6 +119,7 @@
       </li>
     </ul>
     </section>
+  </section>
   <section class="contato" id="contato">
       <h3>Contato</h3>
       <form action="" method="get">
@@ -111,5 +156,7 @@
     </div>
     <p class="fas fa-project-diagram"> Todos os direitos reservados - Renato GSouza</p>
   </footer>
+  <script src="/scripts/dinamicPage.js"></script>
+  <!-- <script src="/scripts/slide.js"></script> -->
 </body>
 </html>
