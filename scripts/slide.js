@@ -1,15 +1,13 @@
 const TWO_SECONDS = 2000
-let currentImgIndex = 0,
-  images = document.querySelectorAll('.static-slide img'),
-  max = images.length;
+let counter = 1,
 
 function nextImage() {
-  images[currentImgIndex].classList.remove('img-selected');
-  currentImgIndex += 1
-  if(currentImgIndex >= max){
-    currentImgIndex = 0;
+  console.log('helo');
+  document.getElementById(`radio${counter}`).checked = true;
+  counter += 1;
+  if(counter>= 4){
+    counter = 1;
   }
-  images[currentImgIndex].classList.add('img-selected');
 }
 
 function startSlide() {

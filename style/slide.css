@@ -76,3 +76,37 @@
 #radio3:checked ~ .first {
   margin-bottom: -200vh;
 }
+
+/* automatic navigation */
+
+.navigation-auto {
+  position: absolute;
+  width: 50vw;
+  margin-top: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-auto div {
+  border: 2px solid rgb(206, 202, 0);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: rgb(206, 202, 0);
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: rgb(206, 202, 0);
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+  background: rgb(206, 202, 0);
+}
