@@ -1,3 +1,6 @@
+const telaContato = document.querySelector('.static-contato');
+const telaSkills = document.querySelector('.static-skills');
+
 const FIVE_SECONDS = 5000;
 let counter = 1;
 
@@ -16,10 +19,10 @@ function startSlide() {
 }
 
 function displays() {
-  document.querySelector('.static-contato')
-    .style.display = 'none';
-  document.querySelector('.static-skills')
-    .style.display = 'none';
+    telaContato.style.display = 'none';
+    telaContato.style.opacity = '0'
+    telaSkills.style.display = 'none';
+    telaSkills.style.opacity = '0';
 }
 
 window.addEventListener('load',() =>{
