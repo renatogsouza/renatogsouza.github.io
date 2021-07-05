@@ -14,7 +14,6 @@
 .slider {
   width: 50vw;
   height: 100vh;
-  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -31,7 +30,7 @@
 
 .slide {
   /* width: 20%; */
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .slide img {

@@ -1,8 +1,7 @@
-const TWO_SECONDS = 2000
-let counter = 1,
+const FIVE_SECONDS = 5000;
+let counter = 1;
 
 function nextImage() {
-  console.log('helo');
   document.getElementById(`radio${counter}`).checked = true;
   counter += 1;
   if(counter>= 4){
@@ -13,7 +12,17 @@ function nextImage() {
 function startSlide() {
   setInterval(() => {
     nextImage();
-  }, TWO_SECONDS);
+  }, FIVE_SECONDS);
 }
 
-window.addEventListener('load', startSlide);
+function displays() {
+  document.querySelector('.static-contato')
+    .style.display = 'none';
+  document.querySelector('.static-skills')
+    .style.display = 'none';
+}
+
+window.addEventListener('load',() =>{
+  startSlide();
+  displays();
+} );
