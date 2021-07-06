@@ -7,8 +7,6 @@
   margin: 0;
   padding: 0;
   width: 50vw;
-
-  /* overflow: hidden; */
 }
 
 .slider {
@@ -29,12 +27,12 @@
 }
 
 .slide {
-  /* width: 20%; */
   transition: 1.5s;
 }
 
 .slide img {
   height: 100vh;
+  object-fit: cover;
   width: 50vw;
 }
 
