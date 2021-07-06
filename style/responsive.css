@@ -9,8 +9,8 @@
   }
 
   header img {
-    width: 100px;
     margin-right: 4%;
+    width: 100px;
   }
 
   .hero h1 {
@@ -31,9 +31,9 @@
   }
 
   footer div ul {
-    list-style: none;
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
+    list-style: none;
   }
 }

@@ -14,6 +14,7 @@ function nextImage() {
 
 function startSlide() {
   setInterval(() => {
+
     nextImage();
   }, FIVE_SECONDS);
 }

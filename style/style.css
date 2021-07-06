@@ -1,9 +1,9 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .tela-inteira {
@@ -12,38 +12,38 @@
 }
 
 .static-home {
-  width: 50vw;
-  height: 100vh;
   background: rgb(104, 104, 104);
+  height: 100vh;
+  width: 50vw;
 }
 
 .img-home {
+  align-items: center;
   display: flex;
   margin: 10px;
-  align-items: center;
 }
 
 .img-home img {
   border-radius: 50%;
-  width: 250px;
   height: 250px;
-  margin-top: 10px;
   margin-right: 10px;
+  margin-top: 10px;
+  width: 250px;
 }
 
 .menu {
   display: flex;
   justify-content: flex-end;
-  margin-top: 10px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 a {
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
-  opacity: 0.75;
   color: #191c03;
+  cursor: pointer;
+  font-weight: bold;
+  opacity: 0.75;
+  text-decoration: none;
 }
 
 .menu a {
@@ -68,11 +68,11 @@ a:active {
 }
 
 .apresentation h1 {
-  text-align: left;
-  font-size: 30px;
-  -webkit-text-stroke-width: 0.5px;
-  margin: 10px;
   color: rgb(204, 200, 200);
+  font-size: 30px;
+  margin: 10px;
+  text-align: left;
+  -webkit-text-stroke-width: 0.5px;
 }
 
 .apresentation h3 {
@@ -83,47 +83,48 @@ a:active {
 }
 
 .sobre {
-  padding: 50px;
   align-items: center;
+  padding: 50px;
 }
 
 .sobre h2 {
+  color: rgb(204, 200, 200);
   font-size: 30px;
   margin-bottom: 20px;
   text-align: center;
-  color: rgb(204, 200, 200);
 }
 
 .sobre p {
-  max-width: 800px;
-  margin-bottom: 35px;
-  text-align: center;
   color: rgb(204, 200, 200);
+  margin-bottom: 35px;
+  max-width: 800px;
+  text-align: center;
 }
 
 .sobre hr {
-  /* width: 300px; */
-
-  height: 2px;
+  background-color: rgb(204, 200, 200);
 
   /* margin-bottom: 70px; */
   border: none;
-  background-color: rgb(204, 200, 200);
+
+  /* width: 300px; */
+
+  height: 2px;
 }
 
 footer {
+  bottom: 10px;
   color: rgb(204, 200, 200);
   position: absolute;
   text-align: center;
-  bottom: 10px;
   width: 50vw;
 }
 
 footer ul {
   display: flex;
-  margin: 10px;
-  list-style: none;
   justify-content: center;
+  list-style: none;
+  margin: 10px;
 }
 
 footer i {

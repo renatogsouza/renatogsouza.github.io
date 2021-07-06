@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "eslint-config-trybe-fundamentals": "^1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/RenatoGSouza/renatogsouza.github.io/issues"
   },
-  "homepage": "https://github.com/RenatoGSouza/renatogsouza.github.io#readme",
-  "devDependencies": {
-    "eslint": "^7.30.0"
-  }
+  "homepage": "https://github.com/RenatoGSouza/renatogsouza.github.io#readme"
 }
