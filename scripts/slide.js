@@ -7,26 +7,25 @@ let counter = 1;
 function nextImage() {
   document.getElementById(`radio${counter}`).checked = true;
   counter += 1;
-  if(counter>= 4){
+  if (counter >= 4) {
     counter = 1;
   }
 }
 
 function startSlide() {
   setInterval(() => {
-
     nextImage();
   }, FIVE_SECONDS);
 }
 
 function displays() {
     telaContato.style.display = 'none';
-    telaContato.style.opacity = '0'
+    telaContato.style.opacity = '0';
     telaSkills.style.display = 'none';
     telaSkills.style.opacity = '0';
 }
 
-window.addEventListener('load',() =>{
+window.addEventListener('load', () => {
   startSlide();
   displays();
-} );
+});
