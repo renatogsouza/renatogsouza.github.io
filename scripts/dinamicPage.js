@@ -1,21 +1,16 @@
-const btnContato = document.querySelector('.btn-contato');
-const btnHome = document.querySelector('.btn-home');
+const btnContato = document.getElementById('btn-contato');
+// const btnHome = document.querySelector('.btn-home');
 
-function linkContato() {
-  const telaInteira = document.querySelector('.tela-inteira');
-  telaInteira.style.display = 'none';
-  telaInteira.style.opacity = '1';
-  const telaContato = document.querySelector('.static-contato');
-  telaContato.style.display = '';
-  telaContato.style.opacity = '1';
-}
+// function linkContato() {
+//   window.location.href = './pages/contato.html';
+// }
 
-function linkHome() {
-  const telaInteira = document.querySelector('.tela-inteira');
-  telaInteira.style.display = '';
-  const telaContato = document.querySelector('.static-contato');
-  telaContato.style.display = 'none';
-}
+// function linkHome() {
+//   const telaInteira = document.querySelector('.tela-inteira');
+//   telaInteira.style.display = '';
+//   const telaContato = document.querySelector('.static-contato');
+//   telaContato.style.display = 'none';
+// }
 
-btnContato.addEventListener('click', linkContato);
-btnHome.addEventListener('click', linkHome);
+// btnContato.addEventListener('click', linkContato);
+// btnHome.addEventListener('click', linkHome);

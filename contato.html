@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="/style/slide.css">
+  <link rel="stylesheet" href="/style/staticSkills.css">
+  <link rel="stylesheet" href="/style/staticContato.css">
+  <link rel="stylesheet" href="/style/responsive.css">
+  <title>Renato Contato</title>
+
+</head>
+<body>
+  <main data-barba="wrapper">
+   
+    <section data-barba="container" data-barba-namespace="contato">
+      <header>
+        <article class="menu">
+          <nav>
+            <a class="btn fas fa-home" id="btn-home" href="../index.html"> Home</a>
+            <a class="btn fas fa-magic" id="btn-skills"href="./skills.html"> Habilidades</a>
+          </nav>
+        </article>
+      </header>
+      <section class="static-contato" id="contato">
+        <button type="button" class="btn-home">HOME</button>
+        <article class="contato">
+          <h3>Contato</h3>
+          <form action="" method="get">
+            <input type="text" name="nome" placeholder="Nome" id="" required>
+            <input type="email" name="email" placeholder="Email" id="" required>
+            <textarea name="Descrição" placeholder="Obrigado por chegar até aqui.
+      Como posso ajuda-lo?" id="" cols="30" rows="10" required></textarea>
+            <button type="submit" class="btn" value=""><i class="fa fa-envelope"></i>Enviar</button>
+          </form>
+        </article>
+      </section>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+  <script src="./scripts/dinamicPage.js"></script>
+  <script src="./scripts/slide.js"></script>
+  <script src="./scripts/transition.js"></script>
+</body>
+</html>
